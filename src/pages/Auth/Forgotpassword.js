@@ -39,7 +39,7 @@ const ForgotPasssword = () => {
     } catch (error) {
       console.log(error);
       toast.dismiss()
-      toast.error(<b> {err.message} </b>)
+      toast.error(<b> {error.message} </b>)
       
     }
   };
