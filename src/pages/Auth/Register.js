@@ -48,7 +48,7 @@ const Register = () => {
       console.log(error);
      
       toast.dismiss()
-      toast.error(<b> {err.message} </b>)
+      toast.error(<b> {error.message} </b>)
     }
   };
 
